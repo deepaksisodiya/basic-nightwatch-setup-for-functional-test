@@ -5,9 +5,13 @@
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="2.750" timestamp="Wed, 01 Jun 2016 13:25:38 GMT">
+    tests="1" time="4.806" timestamp="Wed, 01 Jun 2016 13:47:08 GMT">
   
-    <testcase name="should go to the localhost at 3000 port" time="2.750" assertions="0">
+    <testcase name="should go to the localhost at 3000 port" time="4.806" assertions="2">
+
+    
+
+    
     </testcase>
   
   

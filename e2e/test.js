@@ -6,7 +6,6 @@
 module.exports = {
 
   'should go to the localhost at 3000 port': (browser) => {
-
     browser
       .url('http://localhost:3000')
       .useXpath()
@@ -14,8 +13,6 @@ module.exports = {
       .assert.containsText('//pre[text()="Hello from koa.js"]', 'Hello from koa.js')
       .pause(2000)
       .end();
-
   }
-
 
 };
