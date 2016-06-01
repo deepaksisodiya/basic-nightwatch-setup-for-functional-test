@@ -13,3 +13,11 @@ git clone git@github.com:deepaksisodiya/basic-nightwatch-setup-for-functional-te
 npm install
 npm install -g nightwatch
 ```
+
+## How to run
+
+```
+node index.js
+nightwatch --env chrome (for running in chrome)
+nightwatch (for running in firefox)
+```
