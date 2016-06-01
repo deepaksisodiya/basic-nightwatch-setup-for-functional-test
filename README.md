@@ -9,7 +9,7 @@ This repository has basic setup for writting functional test using nightwatch
 ## How to setup
 
 ```
-git clone repoURL
+git clone git@github.com:deepaksisodiya/basic-nightwatch-setup-for-functional-test.git
 npm install
 npm install -g nightwatch
 ```
