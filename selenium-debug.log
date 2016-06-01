@@ -1,0 +1,31 @@
+19:11:34.623 INFO - Launching a standalone Selenium Server
+19:11:34.654 INFO - Java: Oracle Corporation 24.79-b02
+19:11:34.654 INFO - OS: Mac OS X 10.10.5 x86_64
+19:11:34.665 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+19:11:34.722 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+19:11:34.722 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+19:11:34.723 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:11:34.723 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+19:11:34.725 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+19:11:34.725 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+19:11:34.770 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+19:11:34.770 INFO - Selenium Server is up and running
+19:11:35.013 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Test}]])
+19:11:35.022 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Test}]
+Starting ChromeDriver 2.19.346063 (38b35413bd4a486d436a9749e090454bc9ff6708) on port 20154
+Only local connections are allowed.
+19:11:36.126 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Test}]]
+19:11:36.149 INFO - Executing: [get: http://localhost:3000])
+19:11:36.499 INFO - Done: [get: http://localhost:3000]
+19:11:36.514 INFO - Executing: [find elements: By.xpath: //body])
+19:11:36.552 INFO - Done: [find elements: By.xpath: //body]
+19:11:36.556 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (faed19b007ec0465a2c93dc78737b43e)] -> xpath: //body]])
+19:11:36.568 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (faed19b007ec0465a2c93dc78737b43e)] -> xpath: //body]]
+19:11:36.576 INFO - Executing: [find element: By.xpath: //pre[text()="Hello from koa.js"]])
+19:11:36.596 INFO - Done: [find element: By.xpath: //pre[text()="Hello from koa.js"]]
+19:11:36.599 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (faed19b007ec0465a2c93dc78737b43e)] -> xpath: //pre[text()="Hello from koa.js"]]])
+19:11:36.618 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (faed19b007ec0465a2c93dc78737b43e)] -> xpath: //pre[text()="Hello from koa.js"]]]
+19:11:38.626 INFO - Executing: [delete session: f1cb03f3-563c-4fda-ad73-084e354abe6b])
+19:11:38.699 INFO - Done: [delete session: f1cb03f3-563c-4fda-ad73-084e354abe6b]
