@@ -18,6 +18,6 @@ npm install -g nightwatch
 
 ```
 node index.js
-nightwatch --env chrome (for running functional test in chrome)
-nightwatch (for running functional test in firefox)
+nightwatch --env chrome (for chrome)
+nightwatch (for firefox)
 ```
